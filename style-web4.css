@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+nav{
+  position: fixed;
+  background:rgb(10, 25, 33);
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;  
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+  font-size: 25px;
+
+}
+
+body {
+    text-align: center;
+    background-color: rgb(6, 39, 58);
+  }
+  #cover1{
+    height: 25%;
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 100px;
+    float: left;
+    margin-bottom: 50px;
+    background-color: rgb(10, 25, 33);
+    border-radius: 20px;
+    border-color:    rgb(71, 100, 117);
+    border-style:double;
+    border-width: 5px;
+    }
+    #cover2{
+      height: 25%;
+    width: 20%;
+    margin-left: 60px;
+      float: left;
+      margin-bottom: 50px;
+      background-color: rgb(10, 25, 33);
+      border-radius: 20px;
+      border-color:    rgb(71, 100, 117);
+      border-style:double;
+      border-width: 5px;
+
+        }
+        
+
+        #cover3{
+          height: 25%;
+          width: 20%;
+          margin-left: 60px;
+            float: left;
+            margin-bottom: 50px;
+            background-color: rgb(10, 25, 33);
+            border-radius: 20px;
+            border-color:    rgb(71, 100, 117);
+            border-style:double;
+          border-width: 5px;
+            }
+          
+
+    .text{
+    color:#fff;
+    font-size: 10pt;
+    text-decoration:initial;
+    background-attachment: fixed;
+    text-align: left;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    padding-bottom: 5pt;
+    }
+    #img{
+      margin-top: 12px;
+      border-radius: 20px;
+    }
+    ::selection{
+      color: rgb(7, 46, 73);
+      background: #fff;
+    }
+    
